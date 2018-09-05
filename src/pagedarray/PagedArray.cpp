@@ -36,3 +36,15 @@ PagedArray::PagedArray(int a) {
     this->page1[9] = 9;
 
 }
+
+bool PagedArray::iniciarBin(FILE *file) {
+
+    FILE * intFile;
+
+    intFile = fopen("intFile.bin", "wb");
+
+    fwrite(integers, sizeof(int), sizeof(integers), intFile);
+    fclose(intFile);
+
+    return false;
+}

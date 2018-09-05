@@ -2,8 +2,14 @@
 // Created by ortegajosant on 03/09/18.
 //
 
+
 #ifndef ARREGLOSPAGINADOS_PAGEDARRAY_H
 #define ARREGLOSPAGINADOS_PAGEDARRAY_H
+
+
+#include <iostream>
+#include <fstream>
+
 
 class PagedArray {
 
@@ -12,9 +18,9 @@ public:
 
     int operator[](int number);
 
-    void setArray();
+    bool iniciarBin(FILE *file);
 
-    void cargarPagina();
+
 
 private:
     int page1[256];
