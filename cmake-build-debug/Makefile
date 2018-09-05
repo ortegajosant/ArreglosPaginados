@@ -48,10 +48,10 @@ RM = /snap/clion/37/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/CLionProjects/PagedArray
+CMAKE_SOURCE_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/CLionProjects/PagedArray/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles /home/andrew/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,33 +123,6 @@ PagedArray/fast:
 	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/build
 .PHONY : PagedArray/fast
 
-Page/Page.o: Page/Page.cpp.o
-
-.PHONY : Page/Page.o
-
-# target to build an object file
-Page/Page.cpp.o:
-	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/Page/Page.cpp.o
-.PHONY : Page/Page.cpp.o
-
-Page/Page.i: Page/Page.cpp.i
-
-.PHONY : Page/Page.i
-
-# target to preprocess a source file
-Page/Page.cpp.i:
-	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/Page/Page.cpp.i
-.PHONY : Page/Page.cpp.i
-
-Page/Page.s: Page/Page.cpp.s
-
-.PHONY : Page/Page.s
-
-# target to generate assembly for a file
-Page/Page.cpp.s:
-	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/Page/Page.cpp.s
-.PHONY : Page/Page.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Page/Page.o: src/Page/Page.cpp.o
+
+.PHONY : src/Page/Page.o
+
+# target to build an object file
+src/Page/Page.cpp.o:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o
+.PHONY : src/Page/Page.cpp.o
+
+src/Page/Page.i: src/Page/Page.cpp.i
+
+.PHONY : src/Page/Page.i
+
+# target to preprocess a source file
+src/Page/Page.cpp.i:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/Page/Page.cpp.i
+.PHONY : src/Page/Page.cpp.i
+
+src/Page/Page.s: src/Page/Page.cpp.s
+
+.PHONY : src/Page/Page.s
+
+# target to generate assembly for a file
+src/Page/Page.cpp.s:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/Page/Page.cpp.s
+.PHONY : src/Page/Page.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PagedArray"
-	@echo "... Page/Page.o"
-	@echo "... Page/Page.i"
-	@echo "... Page/Page.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Page/Page.o"
+	@echo "... src/Page/Page.i"
+	@echo "... src/Page/Page.s"
 .PHONY : help
 
 
