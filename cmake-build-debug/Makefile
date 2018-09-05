@@ -123,6 +123,33 @@ PagedArray/fast:
 	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/build
 .PHONY : PagedArray/fast
 
+Page/Page.o: Page/Page.cpp.o
+
+.PHONY : Page/Page.o
+
+# target to build an object file
+Page/Page.cpp.o:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/Page/Page.cpp.o
+.PHONY : Page/Page.cpp.o
+
+Page/Page.i: Page/Page.cpp.i
+
+.PHONY : Page/Page.i
+
+# target to preprocess a source file
+Page/Page.cpp.i:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/Page/Page.cpp.i
+.PHONY : Page/Page.cpp.i
+
+Page/Page.s: Page/Page.cpp.s
+
+.PHONY : Page/Page.s
+
+# target to generate assembly for a file
+Page/Page.cpp.s:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/Page/Page.cpp.s
+.PHONY : Page/Page.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PagedArray"
+	@echo "... Page/Page.o"
+	@echo "... Page/Page.i"
+	@echo "... Page/Page.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

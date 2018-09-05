@@ -8,6 +8,17 @@
 
 class Page {
 
+private:
+    int array[256];
+    int firstPos;
+    int lastPos;
+
+public:
+    int getFirstPos() const;
+
+    int getLastPos() const;
+
+    int getValor(int pos);
 };
 
 
