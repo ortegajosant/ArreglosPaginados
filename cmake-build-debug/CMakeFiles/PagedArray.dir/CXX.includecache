@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/andrew/CLionProjects/PagedArray/main.cpp
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/main.cpp
 iostream
 -
-map
+fstream
 -
+stdlib.h
+-
+time.h
+-
+src/pagedarray/PagedArray.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.h
+stdio.h
+-
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/Page/Page.cpp
+Page.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/Page/Page.h
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/Page/Page.h
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.h
 
