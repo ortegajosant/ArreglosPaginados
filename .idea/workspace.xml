@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc50f028-9cd4-4203-a1db-3b548a77432f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dc50f028-9cd4-4203-a1db-3b548a77432f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,15 +178,15 @@
       <option name="presentableId" value="Default" />
       <updated>1536117953778</updated>
       <workItem from="1536117955601" duration="2256000" />
-      <workItem from="1536123136388" duration="2616000" />
+      <workItem from="1536123136388" duration="2618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4872000" />
+    <option name="totallyTimeSpent" value="4874000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="36" width="1368" height="733" extended-state="7" />
+    <frame x="-1" y="36" width="1368" height="733" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
