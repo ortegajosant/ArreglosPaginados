@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/38/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/38/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,9 +57,22 @@ include CMakeFiles/PagedArray.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PagedArray.dir/flags.make
 
+CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o: CMakeFiles/PagedArray.dir/flags.make
+CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o: ../src/pagedarray/PagedArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o -c "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.cpp"
+
+CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.cpp" > CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.i
+
+CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.cpp" -o CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.s
+
 CMakeFiles/PagedArray.dir/main.cpp.o: CMakeFiles/PagedArray.dir/flags.make
 CMakeFiles/PagedArray.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PagedArray.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PagedArray.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/main.cpp.o -c "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/main.cpp"
 
 CMakeFiles/PagedArray.dir/main.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/PagedArray.dir/main.cpp.s: cmake_force
 
 CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o: CMakeFiles/PagedArray.dir/flags.make
 CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o: ../src/Page/Page.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o -c "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/Page/Page.cpp"
 
 CMakeFiles/PagedArray.dir/src/Page/Page.cpp.i: cmake_force
@@ -85,17 +98,19 @@ CMakeFiles/PagedArray.dir/src/Page/Page.cpp.s: cmake_force
 
 # Object files for target PagedArray
 PagedArray_OBJECTS = \
+"CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o" \
 "CMakeFiles/PagedArray.dir/main.cpp.o" \
 "CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o"
 
 # External object files for target PagedArray
 PagedArray_EXTERNAL_OBJECTS =
 
+PagedArray: CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o
 PagedArray: CMakeFiles/PagedArray.dir/main.cpp.o
 PagedArray: CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o
 PagedArray: CMakeFiles/PagedArray.dir/build.make
 PagedArray: CMakeFiles/PagedArray.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable PagedArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PagedArray"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PagedArray.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

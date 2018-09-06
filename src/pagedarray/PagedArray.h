@@ -9,26 +9,27 @@
 
 #include <iostream>
 #include <fstream>
-
+#include <string>
+#include <stdio.h>
+#include <stdlib.h>
+#define NULL 0
+#include "../Page/Page.h"
+using namespace std;
 
 class PagedArray {
 
 public:
-    PagedArray(int);
+    PagedArray(string);
 
     int operator[](int number);
 
-    bool iniciarBin(FILE *file);
+    bool iniciarBin(string nombreTxt);
 
-
+    void upload(int*, int);
 
 private:
-    int page1[256];
-    int page2[256];
-    int page3[256];
-    int page4[256];
-    int page5[256];
-    int page6[256];
+    long totalIndex;
+
 };
 
 #endif //ARREGLOSPAGINADOS_PAGEDARRAY_H
