@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/38/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/38/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos D
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/37/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/38/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/38/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -177,6 +177,33 @@ src/Page/Page.cpp.s:
 	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/Page/Page.cpp.s
 .PHONY : src/Page/Page.cpp.s
 
+src/pagedarray/PagedArray.o: src/pagedarray/PagedArray.cpp.o
+
+.PHONY : src/pagedarray/PagedArray.o
+
+# target to build an object file
+src/pagedarray/PagedArray.cpp.o:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o
+.PHONY : src/pagedarray/PagedArray.cpp.o
+
+src/pagedarray/PagedArray.i: src/pagedarray/PagedArray.cpp.i
+
+.PHONY : src/pagedarray/PagedArray.i
+
+# target to preprocess a source file
+src/pagedarray/PagedArray.cpp.i:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.i
+.PHONY : src/pagedarray/PagedArray.cpp.i
+
+src/pagedarray/PagedArray.s: src/pagedarray/PagedArray.cpp.s
+
+.PHONY : src/pagedarray/PagedArray.s
+
+# target to generate assembly for a file
+src/pagedarray/PagedArray.cpp.s:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.s
+.PHONY : src/pagedarray/PagedArray.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... src/Page/Page.o"
 	@echo "... src/Page/Page.i"
 	@echo "... src/Page/Page.s"
+	@echo "... src/pagedarray/PagedArray.o"
+	@echo "... src/pagedarray/PagedArray.i"
+	@echo "... src/pagedarray/PagedArray.s"
 .PHONY : help
 
 

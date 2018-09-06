@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/main.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles/PagedArray.dir/main.cpp.o"
   "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/Page/Page.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

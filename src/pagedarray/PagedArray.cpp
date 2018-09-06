@@ -2,37 +2,91 @@
 // Created by ortegajosant on 03/09/18.
 //
 
-
 #include "PagedArray.h"
 #include <iostream>
+
 using namespace std;
 
 int PagedArray::operator[](int number) {
-    if (number >= 0 && number < 10) {
-        cout << "Posición  "<< number << endl;
-        return this->page1[number];
-    }else {
-        cout << "Posición incorrecta:  "<< number << endl;
-        return 0;
-    };
+    return 0;
 }
 
-
-
-void PagedArray::setArray() {
-
+PagedArray::PagedArray(string nombreTxt) {
+    this->iniciarBin(nombreTxt);
+    fstream binario;
+    binario.open("../Files/binario.bin", ios::in | ios::binary);
+    binario.seekg(0, ios::end);
+    this->totalIndex = binario.tellg() / 4;
+    cout << "por favor total: " << this->totalIndex << endl;
+    binario.close();
 }
 
-PagedArray::PagedArray(int a) {
-    this->page1[0] = 0;
-    this->page1[1] = 1;
-    this->page1[2] = 2;
-    this->page1[3] = 3;
-    this->page1[4] = 4;
-    this->page1[5] = 5;
-    this->page1[6] = 6;
-    this->page1[7] = 7;
-    this->page1[8] = 8;
-    this->page1[9] = 9;
+bool PagedArray::iniciarBin(string nombreTxt) {
 
+    ifstream read;
+
+    char caracter;
+
+    read.open("../Files/" + nombreTxt);
+
+    int array[256];
+    int cont = 0;
+    if (!read.fail()) {
+        read.get(caracter);
+        string numero = "";
+        FILE *binario;
+        binario = fopen("../Files/binario.bin", "wb");
+        while (!read.eof()) {
+            if (caracter == ',') {
+                array[cont] = atoi(numero.c_str());
+                numero = "";
+                read.get(caracter);
+                cont++;
+            }
+            if (cont == 256) {
+                cont = 0;
+                fwrite(array, sizeof(int), 256, binario);
+            }
+            numero += caracter;
+            read.get(caracter);
+        }
+        array[cont] = atoi(numero.c_str());
+        fwrite(array, sizeof(int), 256, binario);
+
+        fclose(binario);
+        read.close();
+        free(binario);
+        return true;
+    } else {
+        return false;
+    }
+}
+
+void PagedArray::upload(int *array, int indice) {
+    FILE *bin;
+
+    bin = fopen("../Files/binario.bin", "rb");
+
+    int arrayTemp[256];
+
+    if (bin != NULL) {
+        int numPag = indice / 256;
+        cout << "numero de página: " << numPag << endl;
+        int cont = 0;
+        while (numPag <= this->totalIndex/256) {
+            fread(arrayTemp, sizeof(int), 256, bin);
+            if (cont == numPag) {
+                array = arrayTemp;
+                for (int i = 0; i < 256; i++) {
+                    cout << array[i] << endl;
+                }
+                break;
+            }
+            cont++;
+        }
+    } else {
+        cout << "NO";
+    }
+    fclose(bin);
+    free(bin);
 }

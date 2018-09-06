@@ -93,6 +93,12 @@
 		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/Page/Page.h">
 			<Option target="PagedArray"/>
 		</Unit>
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.cpp">
+			<Option target="PagedArray"/>
+		</Unit>
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.h">
+			<Option target="PagedArray"/>
+		</Unit>
 		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
