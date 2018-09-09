@@ -11,13 +11,19 @@ int main() {
 
     PagedArray *pa = new PagedArray("numeros36kb.txt");
 
+//    pa.
 
-    cout<<pa->findPos(0)<<endl;
-    cout<<pa->findPos(1000)<<endl;
-    cout<<pa->findPos(999)<<endl;
+
+    cout<<pa->findPos(0)<<endl; // 1
+    cout<<pa->findPos(1000)<<endl; // 2
+    cout<<pa->findPos(3000)<<endl; // 3
+    cout<<pa->findPos(9000)<<endl; // 4
+    cout<<pa->findPos(750)<<endl; // 5
+    cout<<pa->findPos(8000)<<endl; // 6
     cout<<pa->findPos(9000)<<endl;
-//    cout<<pa->findPos(5000)<<endl;
-//    cout<<pa->findPos(6000)<<endl;
-//    cout<<pa->findPos(500)<<endl;
+//    cout<<pa->findPos(300)<<endl;
+//    cout<<pa->findPos(8000)<<endl;
+    cout<<pa->findPos(3000)<<endl;
+//    cout<<pa->findPos(3001)<<endl;
 
 }

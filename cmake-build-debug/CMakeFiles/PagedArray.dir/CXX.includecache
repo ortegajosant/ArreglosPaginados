@@ -6,27 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/andrew/Documentos/PagedArray/main.cpp
-iostream
--
-fstream
--
-stdio.h
--
-stdlib.h
--
-time.h
--
-src/pagedarray/PagedArray.h
-/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
-
-/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.cpp
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTC/src/pagedarray/PagedArray.cpp
 PagedArray.h
-/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTC/src/pagedarray/PagedArray.h
 iostream
 -
 
-/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTC/src/pagedarray/PagedArray.h
 iostream
 -
 fstream

@@ -16,7 +16,7 @@
 using namespace std;
 
 struct Page{
-    int *array = (int*) malloc(256* sizeof(int));
+    int *array;
     int firstPos;
     int lastPos;
     int uses;
@@ -31,7 +31,7 @@ public:
 
     bool iniciarBin(string nombreTxt);
 
-    int* upload(int);
+    void upload(int*, int);
 
     void emptySlots(int indice);
 
@@ -39,12 +39,14 @@ public:
 
     int findPos(int indice);
 
-    FILE * bin;
+
+    Page * memory = (Page*) malloc(sizeof(Page) * 6);
 
 private:
     int pagesOnMemory = 0;
-    Page * memory = (Page*) malloc(sizeof(Page) * 6);
+//    Page * memory = (Page*) malloc(sizeof(Page) * 6);
     long totalIndex = 0;
+    FILE * bin;
 
 };
 
