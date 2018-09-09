@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrew/CLionProjects/PagedArray/Page/Page.cpp" "/home/andrew/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/Page/Page.cpp.o"
   "/home/andrew/CLionProjects/PagedArray/main.cpp" "/home/andrew/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/main.cpp.o"
+  "/home/andrew/CLionProjects/PagedArray/src/Page/Page.cpp" "/home/andrew/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o"
+  "/home/andrew/CLionProjects/PagedArray/src/pagedarray/PageFaults.cpp" "/home/andrew/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/src/pagedarray/PageFaults.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

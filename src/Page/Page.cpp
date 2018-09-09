@@ -3,6 +3,8 @@
 //
 
 #include "Page.h"
+#include<random>
+
 
 int Page::getFirstPos() const {
     return firstPos;
@@ -19,4 +21,17 @@ int Page::getValor(int pos) {
     }
 
     return this->array[pos];
+}
+
+
+int * Page::getArray(){
+    return this->array;
+}
+
+void Page::setUses(int uses) {
+    Page::uses = uses;
+}
+
+int Page::getUses() const {
+    return uses;
 }

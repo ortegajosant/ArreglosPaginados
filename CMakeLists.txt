@@ -3,4 +3,4 @@ project(PagedArray)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PagedArray main.cpp Page/Page.cpp Page/Page.h)
+add_executable(PagedArray main.cpp src/Page/Page.cpp src/Page/Page.h src/pagedarray/PageFaults.cpp src/pagedarray/PageFaults.h)

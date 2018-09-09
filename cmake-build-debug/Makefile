@@ -123,33 +123,6 @@ PagedArray/fast:
 	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/build
 .PHONY : PagedArray/fast
 
-Page/Page.o: Page/Page.cpp.o
-
-.PHONY : Page/Page.o
-
-# target to build an object file
-Page/Page.cpp.o:
-	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/Page/Page.cpp.o
-.PHONY : Page/Page.cpp.o
-
-Page/Page.i: Page/Page.cpp.i
-
-.PHONY : Page/Page.i
-
-# target to preprocess a source file
-Page/Page.cpp.i:
-	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/Page/Page.cpp.i
-.PHONY : Page/Page.cpp.i
-
-Page/Page.s: Page/Page.cpp.s
-
-.PHONY : Page/Page.s
-
-# target to generate assembly for a file
-Page/Page.cpp.s:
-	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/Page/Page.cpp.s
-.PHONY : Page/Page.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Page/Page.o: src/Page/Page.cpp.o
+
+.PHONY : src/Page/Page.o
+
+# target to build an object file
+src/Page/Page.cpp.o:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o
+.PHONY : src/Page/Page.cpp.o
+
+src/Page/Page.i: src/Page/Page.cpp.i
+
+.PHONY : src/Page/Page.i
+
+# target to preprocess a source file
+src/Page/Page.cpp.i:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/Page/Page.cpp.i
+.PHONY : src/Page/Page.cpp.i
+
+src/Page/Page.s: src/Page/Page.cpp.s
+
+.PHONY : src/Page/Page.s
+
+# target to generate assembly for a file
+src/Page/Page.cpp.s:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/Page/Page.cpp.s
+.PHONY : src/Page/Page.cpp.s
+
+src/pagedarray/PageFaults.o: src/pagedarray/PageFaults.cpp.o
+
+.PHONY : src/pagedarray/PageFaults.o
+
+# target to build an object file
+src/pagedarray/PageFaults.cpp.o:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/pagedarray/PageFaults.cpp.o
+.PHONY : src/pagedarray/PageFaults.cpp.o
+
+src/pagedarray/PageFaults.i: src/pagedarray/PageFaults.cpp.i
+
+.PHONY : src/pagedarray/PageFaults.i
+
+# target to preprocess a source file
+src/pagedarray/PageFaults.cpp.i:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/pagedarray/PageFaults.cpp.i
+.PHONY : src/pagedarray/PageFaults.cpp.i
+
+src/pagedarray/PageFaults.s: src/pagedarray/PageFaults.cpp.s
+
+.PHONY : src/pagedarray/PageFaults.s
+
+# target to generate assembly for a file
+src/pagedarray/PageFaults.cpp.s:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/pagedarray/PageFaults.cpp.s
+.PHONY : src/pagedarray/PageFaults.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PagedArray"
-	@echo "... Page/Page.o"
-	@echo "... Page/Page.i"
-	@echo "... Page/Page.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Page/Page.o"
+	@echo "... src/Page/Page.i"
+	@echo "... src/Page/Page.s"
+	@echo "... src/pagedarray/PageFaults.o"
+	@echo "... src/pagedarray/PageFaults.i"
+	@echo "... src/pagedarray/PageFaults.s"
 .PHONY : help
 
 

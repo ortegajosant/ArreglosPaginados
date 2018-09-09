@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/andrew/CLionProjects/PagedArray/main.cpp
-iostream
+/home/andrew/CLionProjects/PagedArray/src/Page/Page.h
+
+/home/andrew/CLionProjects/PagedArray/src/pagedarray/PageFaults.cpp
+PageFaults.h
+/home/andrew/CLionProjects/PagedArray/src/pagedarray/PageFaults.h
+
+/home/andrew/CLionProjects/PagedArray/src/pagedarray/PageFaults.h
+bits/stdc++.h
 -
-map
--
+../Page/Page.h
+/home/andrew/CLionProjects/PagedArray/src/Page/Page.h
 

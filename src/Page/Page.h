@@ -12,6 +12,7 @@ private:
     int array[256];
     int firstPos;
     int lastPos;
+    int uses;
 
 public:
     int getFirstPos() const;
@@ -19,6 +20,13 @@ public:
     int getLastPos() const;
 
     int getValor(int pos);
+
+    int getUses() const;
+
+    void setUses(int uses);
+
+    int * getArray();
+
 };
 
 

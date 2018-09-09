@@ -84,13 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/andrew/CLionProjects/PagedArray/Page/Page.cpp">
-			<Option target="PagedArray"/>
-		</Unit>
-		<Unit filename="/home/andrew/CLionProjects/PagedArray/Page/Page.h">
-			<Option target="PagedArray"/>
-		</Unit>
 		<Unit filename="/home/andrew/CLionProjects/PagedArray/main.cpp">
+			<Option target="PagedArray"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/PagedArray/src/Page/Page.cpp">
+			<Option target="PagedArray"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/PagedArray/src/Page/Page.h">
+			<Option target="PagedArray"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/PagedArray/src/pagedarray/PageFaults.cpp">
+			<Option target="PagedArray"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/PagedArray/src/pagedarray/PageFaults.h">
 			<Option target="PagedArray"/>
 		</Unit>
 		<Unit filename="/home/andrew/CLionProjects/PagedArray/CMakeLists.txt">

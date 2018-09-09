@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PagedArray.dir/main.cpp.o"
-  "CMakeFiles/PagedArray.dir/Page/Page.cpp.o"
+  "CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o"
+  "CMakeFiles/PagedArray.dir/src/pagedarray/PageFaults.cpp.o"
   "PagedArray.pdb"
   "PagedArray"
 )

@@ -3,3 +3,12 @@
 
 CMakeFiles/PagedArray.dir/main.cpp.o
  /home/andrew/CLionProjects/PagedArray/main.cpp
+ /home/andrew/CLionProjects/PagedArray/src/Page/Page.h
+ /home/andrew/CLionProjects/PagedArray/src/pagedarray/PageFaults.h
+CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o
+ /home/andrew/CLionProjects/PagedArray/src/Page/Page.cpp
+ /home/andrew/CLionProjects/PagedArray/src/Page/Page.h
+CMakeFiles/PagedArray.dir/src/pagedarray/PageFaults.cpp.o
+ /home/andrew/CLionProjects/PagedArray/src/Page/Page.h
+ /home/andrew/CLionProjects/PagedArray/src/pagedarray/PageFaults.cpp
+ /home/andrew/CLionProjects/PagedArray/src/pagedarray/PageFaults.h
