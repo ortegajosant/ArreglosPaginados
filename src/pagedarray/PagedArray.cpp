@@ -55,38 +55,87 @@ bool PagedArray::iniciarBin(string nombreTxt) {
 
         fclose(binario);
         read.close();
-        free(binario);
+//        free(binario);
         return true;
     } else {
         return false;
     }
 }
 
-void PagedArray::upload(int *array, int indice) {
-    FILE *bin;
+int * PagedArray::upload(int indice) {
 
-    bin = fopen("../Files/binario.bin", "rb");
+    if (this->bin ==NULL) {
+        bin = fopen("../Files/binario.bin", "rb");
+    }
 
-    int arrayTemp[256];
+
+    int *arrayTemp = new(int);
 
     if (bin != NULL) {
         int numPag = indice / 256;
-        cout << "numero de página: " << numPag << endl;
         int cont = 0;
         while (numPag <= this->totalIndex/256) {
             fread(arrayTemp, sizeof(int), 256, bin);
             if (cont == numPag) {
-                array = arrayTemp;
-                for (int i = 0; i < 256; i++) {
-                    cout << array[i] << endl;
-                }
-                break;
+                return arrayTemp;
             }
             cont++;
         }
     } else {
         cout << "NO";
     }
-    fclose(bin);
-    free(bin);
+//    fclose(bin);
+//    free(bin);
+}
+
+void PagedArray::emptySlots(int indice) {
+    this->memory[pagesOnMemory].array = this->upload(indice);
+    this->memory[pagesOnMemory].firstPos = ((indice / 256) * 256);
+    this->memory[pagesOnMemory].lastPos = this->memory[pagesOnMemory].firstPos + 255;
+//    this->memory[pagesOnMemory] = *page;
+    this->memory[pagesOnMemory].uses++;
+    pagesOnMemory ++;
+}
+
+void PagedArray::LRU(int indice) {
+    int numberUses = 0;
+    Page * sustituir;
+    cout<<"Entré";
+    for(int i = 0; i <= pagesOnMemory; i++){
+        if(numberUses >= memory[i].uses){
+            *sustituir = memory[i];
+            numberUses = memory[i].uses;
+        }
+        memory[i].uses = 0;
+    }
+    sustituir->array = this->upload(indice);
+    sustituir->firstPos = (indice / 256) * 256;
+    sustituir->lastPos = (indice / 256) * 256 + 255;
+    sustituir->uses++;
+}
+
+int PagedArray::findPos(int indice) {
+    if (indice < totalIndex) {
+        if (pagesOnMemory<6) {
+            for (int i = 0; i < pagesOnMemory; i++) {
+                if (memory[i].firstPos <= indice && indice <= memory[i].lastPos) {
+                    cout<<pagesOnMemory<<endl;
+                    memory[i].uses++;
+                    return memory[i].array[indice-((indice/256)*256)];
+                }
+            }
+            emptySlots(indice);
+            return memory[pagesOnMemory-1].array[indice-((indice/256)*256)];
+        }
+        else {
+            for (int i = 0; i <= pagesOnMemory; i++) {
+                if (memory[i].firstPos <= indice && indice <= memory[i].lastPos) {
+                    memory[i].uses++;;
+                    return memory[i].array[indice-((indice/256)*256)];
+                }
+            }
+            LRU(indice);
+            return findPos(indice);
+        }
+    }
 }

@@ -13,8 +13,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define NULL 0
-#include "../Page/Page.h"
 using namespace std;
+
+struct Page{
+    int *array = (int*) malloc(256* sizeof(int));
+    int firstPos;
+    int lastPos;
+    int uses;
+};
 
 class PagedArray {
 
@@ -25,10 +31,20 @@ public:
 
     bool iniciarBin(string nombreTxt);
 
-    void upload(int*, int);
+    int* upload(int);
+
+    void emptySlots(int indice);
+
+    void LRU(int indice);
+
+    int findPos(int indice);
+
+    FILE * bin;
 
 private:
-    long totalIndex;
+    int pagesOnMemory = 0;
+    Page * memory = (Page*) malloc(sizeof(Page) * 6);
+    long totalIndex = 0;
 
 };
 

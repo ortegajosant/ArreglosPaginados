@@ -1,3 +1,3 @@
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/cmake-build-debug/CMakeFiles/PagedArray.dir
+/home/andrew/Documentos/PagedArray/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/andrew/Documentos/PagedArray/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrew/Documentos/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir

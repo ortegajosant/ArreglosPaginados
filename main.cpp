@@ -9,19 +9,15 @@ using namespace std;
 
 int main() {
 
-    int * array = (int*) malloc(sizeof(int)*256);
-    for (int i = 0; i < 256; i++) {
-        array[i] = i*2;
-    }
+    PagedArray *pa = new PagedArray("numeros36kb.txt");
 
-    for (int i=0; i < 256; i++) {
-        cout<<array[i]<<endl;
-    }
 
-    cout<<array<<endl<<"--------------------\n"<<endl;
-
-    PagedArray *page = new PagedArray("numeros1kb.txt");
-    page->upload(array, 200);
-    cout<<"\n"<<array<<endl;
+    cout<<pa->findPos(0)<<endl;
+    cout<<pa->findPos(1000)<<endl;
+    cout<<pa->findPos(999)<<endl;
+    cout<<pa->findPos(9000)<<endl;
+//    cout<<pa->findPos(5000)<<endl;
+//    cout<<pa->findPos(6000)<<endl;
+//    cout<<pa->findPos(500)<<endl;
 
 }

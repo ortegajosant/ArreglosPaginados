@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/main.cpp
+/home/andrew/Documentos/PagedArray/main.cpp
 iostream
 -
 fstream
@@ -18,11 +18,15 @@ stdlib.h
 time.h
 -
 src/pagedarray/PagedArray.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.h
+/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/Page/Page.h
+/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.cpp
+PagedArray.h
+/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
+iostream
+-
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.h
+/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
 iostream
 -
 fstream
@@ -33,6 +37,4 @@ stdio.h
 -
 stdlib.h
 -
-../Page/Page.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/Page/Page.h
 
