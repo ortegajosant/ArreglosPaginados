@@ -62,12 +62,12 @@ bool PagedArray::iniciarBin(string nombreTxt) {
     }
 }
 
-void PagedArray::upload(int *array, int indice) {
+int* PagedArray::upload(int indice) {
     FILE *bin;
 
     bin = fopen("../Files/binario.bin", "rb");
 
-    int arrayTemp[256];
+    int *arrayTemp = new (int);
 
     if (bin != NULL) {
         int numPag = indice / 256;
@@ -76,11 +76,10 @@ void PagedArray::upload(int *array, int indice) {
         while (numPag <= this->totalIndex/256) {
             fread(arrayTemp, sizeof(int), 256, bin);
             if (cont == numPag) {
-                array = arrayTemp;
-                for (int i = 0; i < 256; i++) {
-                    cout << array[i] << endl;
-                }
-                break;
+//                for (int i = 0; i < 256; i++) {
+//                    cout << arrayTemp[i] << endl;
+//                }
+                return arrayTemp;
             }
             cont++;
         }
@@ -88,5 +87,4 @@ void PagedArray::upload(int *array, int indice) {
         cout << "NO";
     }
     fclose(bin);
-    free(bin);
 }

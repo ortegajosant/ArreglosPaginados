@@ -6,21 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/main.cpp
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/Page/Page.h
+
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.cpp
+PagedArray.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.h
 iostream
 -
-fstream
--
-stdio.h
--
-stdlib.h
--
-time.h
--
-src/pagedarray/PagedArray.h
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.h
-
-/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/Page/Page.h
 
 /home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginados/src/pagedarray/PagedArray.h
 iostream

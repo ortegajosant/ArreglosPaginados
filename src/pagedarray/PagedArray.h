@@ -25,7 +25,7 @@ public:
 
     bool iniciarBin(string nombreTxt);
 
-    void upload(int*, int);
+    int* upload(int);
 
 private:
     long totalIndex;

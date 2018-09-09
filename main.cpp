@@ -21,7 +21,16 @@ int main() {
     cout<<array<<endl<<"--------------------\n"<<endl;
 
     PagedArray *page = new PagedArray("numeros1kb.txt");
-    page->upload(array, 200);
+    array = page->upload(200);
+
+    for (int i=0; i < 256; i++) {
+        cout<<array[i]<<endl;
+    }
+
     cout<<"\n"<<array<<endl;
+
+    0x563f0a820e70;
+    0x563f0a821910;
+
 
 }
