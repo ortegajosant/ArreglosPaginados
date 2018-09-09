@@ -139,7 +139,9 @@ void PagedArray::upload(int *arrayTemp, int indice) {
 
 void PagedArray::emptySlots(int indice) {
 //    this->memory[pagesOnMemory].array = this->upload(indice);
-
+//    Page * pag = new Page();
+//    this->memory[pagesOnMemory] = pag;
+//    this->(memory+pagesOnMemory).array = (int*) calloc(sizeof(int), 256);
     this->memory[pagesOnMemory].array = (int*) calloc(sizeof(int), 256);
     this->upload(this->memory[pagesOnMemory].array, indice);
     this->memory[pagesOnMemory].firstPos = ((indice / 256) * 256);
