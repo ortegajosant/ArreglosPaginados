@@ -39,7 +39,6 @@ public:
 
     int findPos(int indice);
 
-
     Page * memory = (Page*) malloc(sizeof(Page) * 6);
 
 private:
