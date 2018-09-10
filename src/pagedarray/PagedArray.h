@@ -1,6 +1,3 @@
-//
-// Created by ortegajosant on 03/09/18.
-//
 
 
 #ifndef ARREGLOSPAGINADOS_PAGEDARRAY_H
