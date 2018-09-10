@@ -24,11 +24,6 @@ int main() {
 //    pa->operator[](256) = 3;
 //    cout<<pa->operator[](256)<<endl;
 
-    int array[] = {4,3,6,34,2,6,52,4,0};
-
-    Ordenamiento o;
-    o.insertionSort(array, 9);
-
     return 0;
 
 }
