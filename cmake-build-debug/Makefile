@@ -48,10 +48,10 @@ RM = /snap/clion/38/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTC"
+CMAKE_SOURCE_DIR = /home/andrew/Documentos/PagedArray
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTC/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/andrew/Documentos/PagedArray/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTC/cmake-build-debug/CMakeFiles" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTC/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Documentos/PagedArray/cmake-build-debug/CMakeFiles /home/andrew/Documentos/PagedArray/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTC/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Documentos/PagedArray/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Ordenamiento/Ordenamiento.o: src/Ordenamiento/Ordenamiento.cpp.o
+
+.PHONY : src/Ordenamiento/Ordenamiento.o
+
+# target to build an object file
+src/Ordenamiento/Ordenamiento.cpp.o:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/Ordenamiento/Ordenamiento.cpp.o
+.PHONY : src/Ordenamiento/Ordenamiento.cpp.o
+
+src/Ordenamiento/Ordenamiento.i: src/Ordenamiento/Ordenamiento.cpp.i
+
+.PHONY : src/Ordenamiento/Ordenamiento.i
+
+# target to preprocess a source file
+src/Ordenamiento/Ordenamiento.cpp.i:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/Ordenamiento/Ordenamiento.cpp.i
+.PHONY : src/Ordenamiento/Ordenamiento.cpp.i
+
+src/Ordenamiento/Ordenamiento.s: src/Ordenamiento/Ordenamiento.cpp.s
+
+.PHONY : src/Ordenamiento/Ordenamiento.s
+
+# target to generate assembly for a file
+src/Ordenamiento/Ordenamiento.cpp.s:
+	$(MAKE) -f CMakeFiles/PagedArray.dir/build.make CMakeFiles/PagedArray.dir/src/Ordenamiento/Ordenamiento.cpp.s
+.PHONY : src/Ordenamiento/Ordenamiento.cpp.s
+
 src/Page/Page.o: src/Page/Page.cpp.o
 
 .PHONY : src/Page/Page.o
@@ -216,6 +243,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Ordenamiento/Ordenamiento.o"
+	@echo "... src/Ordenamiento/Ordenamiento.i"
+	@echo "... src/Ordenamiento/Ordenamiento.s"
 	@echo "... src/Page/Page.o"
 	@echo "... src/Page/Page.i"
 	@echo "... src/Page/Page.s"
