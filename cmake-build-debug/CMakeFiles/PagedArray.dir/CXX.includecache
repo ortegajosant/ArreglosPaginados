@@ -27,14 +27,12 @@ cstdio
 -
 Ordenamiento.h
 /home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.h
+../pagedarray/PagedArray.h
+/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
 
 /home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.h
-
-/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.cpp
-PagedArray.h
+../pagedarray/PagedArray.h
 /home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
-iostream
--
 
 /home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
 iostream

@@ -4,18 +4,26 @@
 
 #include <cstdio>
 #include "Ordenamiento.h"
+#include "../pagedarray/PagedArray.h"
 
-void Ordenamiento::insertionSort(int *arr, int n) {
-    int i, j, key;
-    for(i=1; i < n; i++){
-        key = arr[i];
-        j =   i+1;
-
-        while (j>=0 && arr[j] > key){
-            arr[j+1] = arr[j];
-            j--;
+void Ordenamiento::insertionSort(PagedArray memory){
+    if(memory.getTotalIndex() > 1){
+        long size = memory.getTotalIndex();
+        for(long i = 1; i < size; ++i){
+            long j = i - 1;
+            int key = memory.operator[](i);
+            while(j >= 0 && memory.operator[](j) > key){
+                memory.operator[](j+1) = memory.operator[](j);;
+                --j;
+            }
+            memory.operator[](j+1) = key;
         }
-        arr[j+1] = key;
     }
+}
+
+void Ordenamiento::PrintArray(PagedArray memory) {
+    for (int i = 0; i < memory.getTotalIndex(); ++i)
+        std::cout << memory.operator[](i) << " " << std::flush;
+    std::cout << std::endl;
 }
 

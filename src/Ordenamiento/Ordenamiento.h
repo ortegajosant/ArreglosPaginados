@@ -6,11 +6,14 @@
 #define PAGEDARRAY_ORDENAMIENTO_H
 
 
+#include "../pagedarray/PagedArray.h"
+
 class Ordenamiento {
 
 public:
 
-    void insertionSort(int arr[], int n);
+    void insertionSort(PagedArray memory);
+    void PrintArray(PagedArray memory);
 };
 
 
