@@ -12,18 +12,18 @@ int main() {
 
     PagedArray *pa = new PagedArray("numeros36kb.txt");
 
-    cout<<pa->operator[](0)<<endl;
-    cout<<pa->operator[](256)<<endl;
-    cout<<pa->operator[](512)<<endl;
-    cout<<pa->operator[](768)<<endl;
-    cout<<pa->operator[](1025)<<endl;
-    cout<<pa->operator[](2817)<<endl;//
+//    cout<<pa->operator[](0)<<endl;
+//    cout<<pa->operator[](256)<<endl;
+//    cout<<pa->operator[](512)<<endl;
+//    cout<<pa->operator[](768)<<endl;
+//    cout<<pa->operator[](1023)<<endl;
+//    cout<<pa->operator[](2817)<<endl;
+
 
     Ordenamiento o;
     o.insertionSort(*pa);
 
-    o.PrintArray(*pa);
-
+    pa->guardarNuevoTxt();
 
     return 0;
 

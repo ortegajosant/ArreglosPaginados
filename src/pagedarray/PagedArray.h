@@ -30,7 +30,7 @@ public:
 
     bool iniciarBin(string nombreTxt);
 
-    void upload(int*, int);
+    void upload(int *, int);
 
     void emptySlots(int indice);
 
@@ -38,6 +38,9 @@ public:
 
     long getTotalIndex() const;
 
+    void download(int* array, int numPag);
+
+    void guardarNuevoTxt();
 
 private:
     int pagesOnMemory = 0;

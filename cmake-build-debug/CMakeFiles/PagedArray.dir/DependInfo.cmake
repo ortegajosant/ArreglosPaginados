@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrew/Documentos/PagedArray/main.cpp" "/home/andrew/Documentos/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/main.cpp.o"
-  "/home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.cpp" "/home/andrew/Documentos/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/src/Ordenamiento/Ordenamiento.cpp.o"
-  "/home/andrew/Documentos/PagedArray/src/Page/Page.cpp" "/home/andrew/Documentos/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o"
-  "/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.cpp" "/home/andrew/Documentos/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/main.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug/CMakeFiles/PagedArray.dir/main.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/Ordenamiento/Ordenamiento.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug/CMakeFiles/PagedArray.dir/src/Ordenamiento/Ordenamiento.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/Page/Page.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug/CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o"
+  "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/pagedarray/PagedArray.cpp" "/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug/CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

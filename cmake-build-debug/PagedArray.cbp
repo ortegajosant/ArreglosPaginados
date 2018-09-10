@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/andrew/Documentos/PagedArray/cmake-build-debug"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/andrew/Documentos/PagedArray/cmake-build-debug"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/andrew/Documentos/PagedArray/cmake-build-debug"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PagedArray">
-				<Option output="/home/andrew/Documentos/PagedArray/cmake-build-debug/PagedArray" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/andrew/Documentos/PagedArray/cmake-build-debug"/>
+				<Option output="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug/PagedArray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 PagedArray"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 PagedArray"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PagedArray/fast">
-				<Option output="/home/andrew/Documentos/PagedArray/cmake-build-debug/PagedArray" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/andrew/Documentos/PagedArray/cmake-build-debug"/>
+				<Option output="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug/PagedArray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,35 +77,35 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 PagedArray/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andrew/Documentos/PagedArray/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 PagedArray/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ortegajosant/Documentos/Algoritmos\ Extructuras\ datos\ Datos\ II/ArreglosPaginadosTareaCorta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/andrew/Documentos/PagedArray/main.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/main.cpp">
 			<Option target="PagedArray"/>
 		</Unit>
-		<Unit filename="/home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/Ordenamiento/Ordenamiento.cpp">
 			<Option target="PagedArray"/>
 		</Unit>
-		<Unit filename="/home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/Ordenamiento/Ordenamiento.h">
 			<Option target="PagedArray"/>
 		</Unit>
-		<Unit filename="/home/andrew/Documentos/PagedArray/src/Page/Page.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/Page/Page.cpp">
 			<Option target="PagedArray"/>
 		</Unit>
-		<Unit filename="/home/andrew/Documentos/PagedArray/src/Page/Page.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/Page/Page.h">
 			<Option target="PagedArray"/>
 		</Unit>
-		<Unit filename="/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.cpp">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/pagedarray/PagedArray.cpp">
 			<Option target="PagedArray"/>
 		</Unit>
-		<Unit filename="/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/pagedarray/PagedArray.h">
 			<Option target="PagedArray"/>
 		</Unit>
-		<Unit filename="/home/andrew/Documentos/PagedArray/CMakeLists.txt">
+		<Unit filename="/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

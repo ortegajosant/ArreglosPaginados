@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/andrew/Documentos/PagedArray/main.cpp
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/main.cpp
 iostream
 -
 fstream
@@ -18,23 +18,15 @@ stdlib.h
 time.h
 -
 src/pagedarray/PagedArray.h
-/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/pagedarray/PagedArray.h
 src/Ordenamiento/Ordenamiento.h
-/home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/Ordenamiento/Ordenamiento.h
 
-/home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.cpp
-cstdio
--
-Ordenamiento.h
-/home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/Ordenamiento/Ordenamiento.h
 ../pagedarray/PagedArray.h
-/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/pagedarray/PagedArray.h
 
-/home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.h
-../pagedarray/PagedArray.h
-/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
-
-/home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
+/home/ortegajosant/Documentos/Algoritmos Extructuras datos Datos II/ArreglosPaginadosTareaCorta/src/pagedarray/PagedArray.h
 iostream
 -
 fstream
