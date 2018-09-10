@@ -8,6 +8,7 @@ CMakeFiles/PagedArray.dir/main.cpp.o
 CMakeFiles/PagedArray.dir/src/Ordenamiento/Ordenamiento.cpp.o
  /home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.cpp
  /home/andrew/Documentos/PagedArray/src/Ordenamiento/Ordenamiento.h
+ /home/andrew/Documentos/PagedArray/src/pagedarray/PagedArray.h
 CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o
  /home/andrew/Documentos/PagedArray/src/Page/Page.cpp
  /home/andrew/Documentos/PagedArray/src/Page/Page.h

@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int &PagedArray::operator[](int indice) {
+int &PagedArray::operator[](long indice) {
     if (indice < totalIndex) {
         if (pagesOnMemory < 6) {
             for (int i = 0; i < pagesOnMemory; i++) {
@@ -133,4 +133,8 @@ void PagedArray::LRU(int indice) {
     memory[cont].numPag = indice / 256;
     memory[cont].firstPos = (indice / 256) * 256;
     memory[cont].lastPos = (indice / 256) * 256 + 255;
+}
+
+long PagedArray::getTotalIndex() const {
+    return totalIndex;
 }

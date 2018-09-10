@@ -29,7 +29,7 @@ class PagedArray {
 public:
     PagedArray(string);
 
-    int &operator[](int number);
+    int &operator[](long number);
 
     bool iniciarBin(string nombreTxt);
 
@@ -38,6 +38,8 @@ public:
     void emptySlots(int indice);
 
     void LRU(int indice);
+
+    long getTotalIndex() const;
 
 
 private:
