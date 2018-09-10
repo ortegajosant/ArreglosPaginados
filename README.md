@@ -10,3 +10,5 @@
 ## II Semestre 2018
 
 Tarea Corta de Algoritmos y Estructuras de Datos II de la Carrera Ingeniería en Computadores.
+
+En el Wiki se encuentra la documentación.
