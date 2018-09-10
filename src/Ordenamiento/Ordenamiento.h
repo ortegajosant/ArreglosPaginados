@@ -1,6 +1,3 @@
-//
-// Created by andrew on 09/09/18.
-//
 
 #ifndef PAGEDARRAY_ORDENAMIENTO_H
 #define PAGEDARRAY_ORDENAMIENTO_H

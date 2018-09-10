@@ -1,6 +1,4 @@
-//
-// Created by ortegajosant on 03/09/18.
-//
+
 
 #include "PagedArray.h"
 #include <iostream>

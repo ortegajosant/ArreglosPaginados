@@ -1,6 +1,4 @@
-//
-// Created by andrew on 09/09/18.
-//
+
 
 #include <cstdio>
 #include "Ordenamiento.h"
