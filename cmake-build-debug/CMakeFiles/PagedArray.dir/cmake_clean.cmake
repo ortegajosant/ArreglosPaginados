@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PagedArray.dir/src/pagedarray/PagedArray.cpp.o"
   "CMakeFiles/PagedArray.dir/main.cpp.o"
   "CMakeFiles/PagedArray.dir/src/Page/Page.cpp.o"
+  "CMakeFiles/PagedArray.dir/src/Ordenamiento/Ordenamiento.cpp.o"
   "PagedArray.pdb"
   "PagedArray"
 )
